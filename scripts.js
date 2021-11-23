@@ -114,8 +114,8 @@ const DOM = {
 
 const utils = {
     formatAmount(value) {
-        value = Number(value) * 100
-        return value
+        value = value * 100
+        return Math.round(value)
     },
 
     formatCurrency(value) {
@@ -205,10 +205,6 @@ const Form = {
     }
 
 }
-
-
-Storage.set("")
-
 
 const App = {
     init() {

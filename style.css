@@ -253,10 +253,3 @@ footer{
     }
 
 }
-
-save() {
-    console.log('Salva dados')
-},
-clearInterval() {
-    console.log('limpar formulário')
-}
